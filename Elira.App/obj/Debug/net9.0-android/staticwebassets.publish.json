@@ -1,0 +1,1188 @@
+{
+  "Version": 1,
+  "Hash": "q9rDQsu5rWm2ifuMiXhpwE+ya7EN26X034pWR6T5CoM=",
+  "Source": "Elira.App",
+  "BasePath": "/",
+  "Mode": "Root",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App.Shared/Elira.App.Shared.csproj",
+      "Version": 2,
+      "Source": "Elira.App.Shared",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Elira.App/wwwroot",
+      "Source": "Elira.App",
+      "ContentRoot": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/",
+      "BasePath": "/",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/nd8vcmzehy-nkve54e87r.gz",
+      "SourceId": "Elira.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint=nkve54e87r}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1qjtkf2qh6",
+      "Integrity": "Gdmu8X6VvrRkuZ+v5fJ0jikUk7vv2DzJbQAq4YF/HWA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/nd8vcmzehy-nkve54e87r.br",
+      "SourceId": "Elira.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint=nkve54e87r}]?.html.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "3mu95mm5p6",
+      "Integrity": "O+BUsRdLFg4/eOhVG2BRkVBHwWyAeY16hdGQgOieQ+Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/yfc3c2a5wi-ulwx5ug5io.br",
+      "SourceId": "Elira.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/",
+      "BasePath": "/",
+      "RelativePath": "app#[.{fingerprint=ulwx5ug5io}]?.css.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "t7myux1h3e",
+      "Integrity": "BwmrrauUoHrZrpd6APKA/XWkUxybYv10sBE36McM+MQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/yfc3c2a5wi-ulwx5ug5io.gz",
+      "SourceId": "Elira.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/",
+      "BasePath": "/",
+      "RelativePath": "app#[.{fingerprint=ulwx5ug5io}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xdwpfpssub",
+      "Integrity": "y1ykg8mYfQWGscjSupizVcFoi53GrdvcfaMPbT4oGjY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/app.css",
+      "SourceId": "Elira.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ulwx5ug5io",
+      "Integrity": "rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/index.html",
+      "SourceId": "Elira.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nkve54e87r",
+      "Integrity": "Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/yfc3c2a5wi-ulwx5ug5io.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.005681818182"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BwmrrauUoHrZrpd6APKA/XWkUxybYv10sBE36McM+MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/yfc3c2a5wi-ulwx5ug5io.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004310344828"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y1ykg8mYfQWGscjSupizVcFoi53GrdvcfaMPbT4oGjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.br",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/yfc3c2a5wi-ulwx5ug5io.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BwmrrauUoHrZrpd6APKA/XWkUxybYv10sBE36McM+MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BwmrrauUoHrZrpd6APKA/XWkUxybYv10sBE36McM+MQ="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/yfc3c2a5wi-ulwx5ug5io.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y1ykg8mYfQWGscjSupizVcFoi53GrdvcfaMPbT4oGjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y1ykg8mYfQWGscjSupizVcFoi53GrdvcfaMPbT4oGjY="
+        }
+      ]
+    },
+    {
+      "Route": "app.ulwx5ug5io.css",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/yfc3c2a5wi-ulwx5ug5io.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.005681818182"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BwmrrauUoHrZrpd6APKA/XWkUxybYv10sBE36McM+MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ulwx5ug5io"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk="
+        }
+      ]
+    },
+    {
+      "Route": "app.ulwx5ug5io.css",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/yfc3c2a5wi-ulwx5ug5io.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004310344828"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y1ykg8mYfQWGscjSupizVcFoi53GrdvcfaMPbT4oGjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ulwx5ug5io"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk="
+        }
+      ]
+    },
+    {
+      "Route": "app.ulwx5ug5io.css",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ulwx5ug5io"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rj8ePGmpNx+FtocWz9XNQoiDc8+pvufrDYT0D4KxSFk="
+        }
+      ]
+    },
+    {
+      "Route": "app.ulwx5ug5io.css.br",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/yfc3c2a5wi-ulwx5ug5io.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BwmrrauUoHrZrpd6APKA/XWkUxybYv10sBE36McM+MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ulwx5ug5io"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BwmrrauUoHrZrpd6APKA/XWkUxybYv10sBE36McM+MQ="
+        }
+      ]
+    },
+    {
+      "Route": "app.ulwx5ug5io.css.gz",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/yfc3c2a5wi-ulwx5ug5io.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y1ykg8mYfQWGscjSupizVcFoi53GrdvcfaMPbT4oGjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ulwx5ug5io"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y1ykg8mYfQWGscjSupizVcFoi53GrdvcfaMPbT4oGjY="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/nd8vcmzehy-nkve54e87r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002710027100"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "368"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gdmu8X6VvrRkuZ+v5fJ0jikUk7vv2DzJbQAq4YF/HWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/nd8vcmzehy-nkve54e87r.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.004132231405"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "241"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O+BUsRdLFg4/eOhVG2BRkVBHwWyAeY16hdGQgOieQ+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.br",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/nd8vcmzehy-nkve54e87r.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "241"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O+BUsRdLFg4/eOhVG2BRkVBHwWyAeY16hdGQgOieQ+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O+BUsRdLFg4/eOhVG2BRkVBHwWyAeY16hdGQgOieQ+Q="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/nd8vcmzehy-nkve54e87r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gdmu8X6VvrRkuZ+v5fJ0jikUk7vv2DzJbQAq4YF/HWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gdmu8X6VvrRkuZ+v5fJ0jikUk7vv2DzJbQAq4YF/HWA="
+        }
+      ]
+    },
+    {
+      "Route": "index.nkve54e87r.html",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/nd8vcmzehy-nkve54e87r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002710027100"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "368"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gdmu8X6VvrRkuZ+v5fJ0jikUk7vv2DzJbQAq4YF/HWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nkve54e87r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I="
+        }
+      ]
+    },
+    {
+      "Route": "index.nkve54e87r.html",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/nd8vcmzehy-nkve54e87r.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.004132231405"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "241"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O+BUsRdLFg4/eOhVG2BRkVBHwWyAeY16hdGQgOieQ+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nkve54e87r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I="
+        }
+      ]
+    },
+    {
+      "Route": "index.nkve54e87r.html",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nkve54e87r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vyz9cF6DCTUgBgrfp4Cuq8pwFNoHSbnIPBPGNqCCZ2I="
+        }
+      ]
+    },
+    {
+      "Route": "index.nkve54e87r.html.br",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/publish/nd8vcmzehy-nkve54e87r.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "241"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O+BUsRdLFg4/eOhVG2BRkVBHwWyAeY16hdGQgOieQ+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nkve54e87r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O+BUsRdLFg4/eOhVG2BRkVBHwWyAeY16hdGQgOieQ+Q="
+        }
+      ]
+    },
+    {
+      "Route": "index.nkve54e87r.html.gz",
+      "AssetFile": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/compressed/nd8vcmzehy-nkve54e87r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gdmu8X6VvrRkuZ+v5fJ0jikUk7vv2DzJbQAq4YF/HWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 23 May 2025 23:20:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nkve54e87r"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gdmu8X6VvrRkuZ+v5fJ0jikUk7vv2DzJbQAq4YF/HWA="
+        }
+      ]
+    }
+  ]
+}
