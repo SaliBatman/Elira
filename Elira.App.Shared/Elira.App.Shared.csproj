@@ -14,4 +14,13 @@
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Pages\User\" />
+    </ItemGroup>
+    <PropertyGroup>
+        <HotReloadEnabled>true</HotReloadEnabled>
+        <BlazorHotReloadEnabled>true</BlazorHotReloadEnabled>
+        <RazorCompileOnBuild>false</RazorCompileOnBuild>
+        <RazorCompileOnPublish>true</RazorCompileOnPublish>
+    </PropertyGroup>
 </Project>

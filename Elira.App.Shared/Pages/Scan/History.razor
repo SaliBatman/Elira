@@ -1,0 +1,57 @@
+@page "/History"
+<div class="container mt-3 text-end">
+    <h5 class="mb-2">تاریخچه آنالیز های فروشگاه</h5>
+    <p class="text-muted">1404/02/30</p>
+
+    <div class="elira-container mb-3" style="height: 100px;"></div>
+
+    <table class="table table-bordered text-center align-middle right">
+        <thead class="table-light right">
+        <tr>
+            <th>ردیف</th>
+            <th>نام مشتری</th>
+            <th>نوع آنالیز</th>
+            <th>نمایش</th>
+            <th>ویرایش</th>
+        </tr>
+        </thead>
+        <tbody>
+        @for (int i = 1; i <= 8; i++)
+        {
+            <tr>
+                <td>@i</td>
+                <td>حسینی</td>
+                <td>آنالیز پوست</td>
+                <td>
+                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="21.3333" height="20" fill="url(#pattern0_82_416)"/>
+                        <defs>
+                            <pattern id="pattern0_82_416" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_82_416" transform="matrix(0.009375 0 0 0.01 0.03125 0)"/>
+                            </pattern>
+                            <image id="image0_82_416" width="100" height="100" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFUklEQVR4nO2dTYgcRRTHX7KKAfXiKtF13XnVMyaYxIhE41c0F70YPw8RTRQv0ZMiGj36EfEgBK8qgu66RoUFCajxoAgR9SAejF7iavQkQU3EzPR7vRuza0lVD2ZjkpWqrprunnk/eDDM9nbVq3/XZ7+qARAEQRAEQRAEQRAEQRAEQRAEQRBOpqGXQYOvhQbfBSrbLJYdLwNTJrZs9LL4j84oXwyKXwOkFBRrMT59GdgyoldhjC6KI4bKbgTkQyICuz2IyL9Dkm0IK8ZYZxUgt0UM9msVkI9Ao3NZOEGQPhcxuGATTZ8FEoOvETE4VH95dQBB6FkRhMMIgvRMcUEUj4sgHEgQfiOAIDQlgnCgJoumRBBVpfmSCKLLF0EE0eUXvAiiyy/sgRSE5kHxfkDeBSp7Il/QS2+GJq+zZj7n323Pr+H93f+pQN77RhD6GxTtBcWPeC3UXcIjgPyonSnbe4kgBWoDTUEzXQ2hSNI1oHgSkP6SGuIiBtL70JppQiyaMy1A/lCarP+vFb9AQpugVyi+HRQflD7klLWCP4YGXQi9ZkXnfED+QDr1hZ020tMAegmUhl6SL6LG7vSrPspCmoUk3QJVQaX3A9LRwRTEilGgv9ioz4Bmdj2odCsofjy3dCs0suvs3/z9vc3mbaAEMcPOhG71yg/SFaD4TVD8xyJpHM6vSdd6pWHyFmVoXFVBFG3z6nwVT7rNvO21EzDSHvbwe9ugCPKi34SOfi5QED/Zezj7zjv7WxCk9wD0Uqf0k3RNkIgXE/nhPOvXS0HR7v4UBGkaluuz3ZspKlAzTlFTzD1dWKXPAaQf+0sQpGM2esUV5LfCifGvTTjnI+GrwnTy1RHEPdpCpWvjLJ3TPDToSvf88I5+EeQbr3mBskNbHcnGnfNjfED+tuaCmGWR7CYv55WdS8QS5LDXQ5JkNxRbXildEJ70SrNpZuDRxMjNbBnwAfntmgpCczA2k3ilmaRb4guS3euVN+OT8a12giB95Z9muj26IOadvC9IX4sgSgQpscnK7qtsk2VeLdeyybLNFu/qu05d0bv+6VZj2LvRPVE9FHn7nO+wd0Pdh73G9nlODCcqtS1gnT4TkL8rlnY1BDG2wzndJL3cv61etFDmvJbikV8IkHaFFhd92mwVoZYgv+7Xp4V4OKoiSC7KD3Yp24WR9jAgHQgnBh2A0SPnOeVh5aFzw+WhSoLkGdrt/IKqma62L5fKeUE1ZKMow/lfNUGs7XTPw+wKUPx9oZrhEyOM9FJY36spiCmgh5zzMdIezvsUpyCHOTuicm2mDMgPB/e74mFAfjFZiRl92Z3Bp1+ez+cw416jKZsGbRqwMKBuoJwJdvZGD9mRW77MkgfKmc/2VbEe8r4t8h3xoherLEguylFAegCqAtKDgxtKejyTZiniudKDrRU/L8HWJ9QW/iTe2VKL0OpcAMh74j50taohJ9hBQL4TekWD7wbkX3vnX/0E0d3assduO4tFMnspKP6o537VVhBlMz/f3dkU4EijhbFedtPnsZJ8qrMgvHCH1ReA/Jg989GVFo/a/0X6UrZFxxFnGpDeAaQnAbN7QKW32FBPY+az+Q7pqe410+WL0Hc1hPvIRBBdvggiiC6/4EUQXX5hiyB6QAWRQzChUodgyjGxOpwg5sSK4jVkfflVnfvDzFwpCMiflu6MqrvRXgiGOUg+ROTH4NqfgO2VEBSzncv89EL5zulaGfJvNtAuCuYFkqJXALlTuqOq4mbKCOllUOlyiE5Ln2WDCeQnjzaf9HNPtkx4vS0jQRAEQRAEQRAEQRAEQRAEQRAEAf7LP5eQ7zpQ5BRsAAAAAElFTkSuQmCC"/>
+                        </defs>
+                    </svg>
+
+                </td>
+                <td>
+                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect x="0.333328" width="21.3333" height="20" fill="url(#pattern0_82_415)"/>
+                        <defs>
+                            <pattern id="pattern0_82_415" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_82_415" transform="matrix(0.009375 0 0 0.01 0.03125 0)"/>
+                            </pattern>
+                            <image id="image0_82_415" width="100" height="100" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAADIUlEQVR4nO3dTW7TQBjG8ZePczTvpBwAiT1BbOEARYq4AIKyQJQlAiSy4BqgtlyjwIYlsMsJEKvMJAtEB9mu1Ajiukk842c8z1+aZTOJfx1/tJEtwsI28tfFuIkY90uMncpgvhd4Rlafvybq3otx/nzYU1H3+IIfYvEwiAKIQRRADKLEy9jDy2EsoRj3KOI7zKzBfE/U/l4bhQf6gKl9KMb+WRtlOH8Q8m3lnW6EMu36bad/0Te091pDUfcz6vvvHYbaj2f7/yetoKh7G/Uz9OvU1n7456C8v9WBvsAtkFtrZzEsfxvUPhO1B0mNwULXXxkrz5T2N1sp9rg9jOHsrhj7Zb2DF9SYbI+xDUprGP5quc/rfoN6DIxNUNpcGcTwW6Ictr2bOs1mZRh7vP4cDSitltMxw2yCsYQycE+DWpRnJN1vVL/RUPcuzF9tG8bQvggHUu7/ADauQV4ZK1aKsfdDgRwAbFyfDkYJctTuRd9yxr0E2MAefjcV7Ao8ZRDtO0ZKIJoDRiogmgtGCiCaEwY6iOaGgQyiOWKggmiuGJcCsVPZdbeijYG92d+LvjZA1H0TyHzPVkbSIL6nGEmC+B5jJAfie46REsioPIAfdXoA313ckOAlAeK7Xxnq3pTbKnjwIB4Fo/jZ3EE8EkbuIB4NI3MQ0/EBfPX31HIGcUgrgyDSFYZxry94Pa4QibmbMu5Vw2sSRGKtjArkO0HqirmbOp+TILXFxqjmJEhtsTGqOQlSW2yMak6C1BYbo5qTILXFxqjmJAhUBAGLIGARBCyCgEUQsAgCFkHAIghYBAGLIGAZ94P/oEKKIGARBCyCgEUQsAgCFkHAIghYBAGLIGARBCyCgEUQsAgCFkHAIghYBAGLIGBBgDTeatzORd3XLIaxi4Zv2j+PAZLqzfh9/DEbhwdJ+XEVJvLYWRiJkrGfO/+wBnyoPZFoDWZ3En/kkQ87iscdzW9L1Orv78FhYpxd/Ze/UqFwpcjyyihut1Fsm87S+UjUfsp+Zag9ib+bajz7mo3PrlMmWQwtPutsvNajWxljjDHGGGOMMcYYk370F8PewTtKceEfAAAAAElFTkSuQmCC"/>
+                        </defs>
+                    </svg>
+
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    
+}

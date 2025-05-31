@@ -1,9 +1,20 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Vazirmatn-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Ltim';
+    src: url('fonts/ltim.ttf') format('truetype');
+}
+
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Vazir', Helvetica, Arial, sans-serif;
 }
 
 a, .btn-link {
     color: #006bb7;
+    text-decoration: none;
+
 }
 
 .btn-primary {
@@ -48,4 +59,47 @@ h1:focus {
 
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
+}
+.right {
+    direction: rtl;
+    text-align: right;
+}
+.input-model
+{
+    border: none ;
+    height: 48px;
+    background-color:#E6E6E6  ;
+}
+.insert-btn{
+    height: 48px;
+    border-radius:7px;
+    background-color:#5A4BFA ;
+    width: 100%;
+    color: #ffffff;
+    
+}
+
+.add-btn{
+    height: 48px;
+    border-radius:7px;
+    background-color:#5A4BFA ;
+    width: 50%;
+    color: #ffffff;
+
+}
+.typo-logo{
+    font-family: Ltim;
+    color: #2A00E6;
+    text-align: center;
+    
+}
+.no-color{
+    color: #000000;
+}
+.elira-container {
+    background-color: #5A4BFA;
+    height: 200px;
+}
+.no-image {
+    width: 200px;
 }

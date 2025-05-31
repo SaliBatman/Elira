@@ -1,5 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
-
+    <PropertyGroup>
+        <HotReloadEnabled>true</HotReloadEnabled>
+        <BlazorHotReloadEnabled>true</BlazorHotReloadEnabled>
+        <RazorCompileOnBuild>false</RazorCompileOnBuild>
+        <RazorCompileOnPublish>true</RazorCompileOnPublish>
+    </PropertyGroup>
     <PropertyGroup>
         <TargetFrameworks>net9.0-android;net9.0-ios;net9.0-maccatalyst</TargetFrameworks>
         <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net9.0-windows10.0.19041.0</TargetFrameworks>
@@ -68,6 +73,13 @@
 
     <ItemGroup>
         <ProjectReference Include="..\Elira.App.Shared\Elira.App.Shared.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="Resources\Fonts\ltim.ttf">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>

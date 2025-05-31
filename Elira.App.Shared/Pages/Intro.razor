@@ -1,0 +1,17 @@
+@page "/Intro"
+@using Elira.App.Shared.Layout
+@layout NoLayout
+@inject NavigationManager Nav
+
+<div style="background-color:#2A00E6; color:white;  height:100vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;font-family: Ltim">
+    <h1 style="font-size:64px; font-weight:bold; margin:0;">Elira</h1>
+    <p style="font-size:20px; margin-top:10px; font-family: Vazir">اپلیکیشن تخصصی آنالیز پوست و مو</p>
+</div>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(3500); // ۲.۵ ثانیه مکث
+        Nav.NavigateTo("/login");
+    }
+}

@@ -15,5 +15,10 @@
     <ItemGroup>
         <ProjectReference Include="..\Elira.App.Shared\Elira.App.Shared.csproj"/>
     </ItemGroup>
-
+    <PropertyGroup>
+        <HotReloadEnabled>true</HotReloadEnabled>
+        <BlazorHotReloadEnabled>true</BlazorHotReloadEnabled>
+        <RazorCompileOnBuild>false</RazorCompileOnBuild>
+        <RazorCompileOnPublish>true</RazorCompileOnPublish>
+    </PropertyGroup>
 </Project>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Elira.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d77dec1873c4a39d7067c78a53903890cacab650")]
 [assembly: System.Reflection.AssemblyProductAttribute("Elira.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Elira.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

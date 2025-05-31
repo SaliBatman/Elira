@@ -13,7 +13,11 @@ public static class MauiProgram
             .UseMauiApp<App>()
             .ConfigureFonts(fonts =>
             {
-                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");           
+                fonts.AddFont("Vazirmatn-Bold.ttf", "Vazir");
+                fonts.AddFont("ltim.ttf", "Ltim");
+
+
             });
 
         // Add device-specific services used by the Elira.App.Shared project

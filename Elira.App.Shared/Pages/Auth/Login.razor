@@ -1,0 +1,47 @@
+@page "/Login"
+@using Elira.App.Shared.Layout
+@inject NavigationManager Nav
+
+@layout NoLayout
+<div style="text-align:center; padding: 20px;">
+    <h1 class="typo-logo">Elira</h1>
+
+    <img src="/img/ico/doctor.png" style="width:200px;  padding:20px; border-radius:10px;" />
+
+    <h3 style="margin-top: 40px; " class="right">ورود به حساب کاربری :</h3>
+
+    <EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
+        <InputText class="form-control right input-model" @bind-Value="loginModel.Username" placeholder="نام کاربری/ایمیل" />
+        <br />
+        <InputText class="form-control right input-model" @bind-Value="loginModel.Password" placeholder="رمز ورود" type="password" />
+        <br />
+        <div  class="right">
+            <a href="/forgot-password" style="color:blue; font-size:small;">رمز عبور خود را فراموش کرده‌ام.</a>
+        </div>
+        <br />
+        <button type="submit" class="btn insert-btn" style="width:100%; background-color:#5A4BFA; border:none;">
+            ورود
+        </button>
+    </EditForm>
+
+    <div style="margin-top: 20px;">
+        <a href="/register" class="right">از قبل ثبت‌نام نکر ده‌ام! / ثبت نام</a>
+    </div>
+</div>
+
+@code {
+    private LoginModel loginModel = new();
+
+    private void HandleLogin()
+    {
+        // TODO: Handle login logic
+        Console.WriteLine($"Logging in as {loginModel.Username}");
+        Nav.NavigateTo("/Analyze");
+    }
+
+    public class LoginModel
+    {
+        public string Username { get; set; } = "";
+        public string Password { get; set; } = "";
+    }
+}

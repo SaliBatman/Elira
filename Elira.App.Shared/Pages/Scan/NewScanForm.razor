@@ -1,0 +1,30 @@
+@page "/NewScanForm"
+<div class="container mt-4">
+    <div class="rounded  p-4 mb-3 elira-container" ></div>
+
+    <div class="mb-3 right">
+        <label for="reviewTitle" class="form-label">عنوان بررسی را انتخاب کنید:</label>
+        <select id="reviewTitle" class="form-control right input-model valid">
+            <option value="">انتخاب کنید</option>
+            <option value="1">گزینه ۱</option>
+            <option value="2">گزینه ۲</option>
+        </select>
+    </div>
+
+    <div class="mb-3 right">
+        <label for="customerName" class="form-label">نام مشتری را وارد کنید:</label>
+        <input type="text" id="customerName" class="form-control right input-model valid" />
+    </div>
+
+    <div class="mb-3 right">
+        <label for="customerPhone" class="form-label">شماره همراه مشتری:</label>
+        <input type="text" id="customerPhone" class="form-control right input-model valid" />
+    </div>
+
+    <div class="mb-3 right">
+        <label for="visitReason" class="form-label">علت مراجعه:</label>
+        <textarea id="visitReason" class="form-control right input-model valid"></textarea>
+    </div>
+
+    <button class="btn insert-btn">ثبت</button>
+</div>

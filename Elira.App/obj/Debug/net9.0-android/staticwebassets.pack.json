@@ -1,8 +1,28 @@
 {
   "Files": [
     {
+      "Id": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/obj/Debug/net9.0-android/scopedcss/bundle/Elira.App.styles.css",
+      "PackagePath": "staticwebassets/Elira.App.styles.css"
+    },
+    {
       "Id": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/img/facescan1.png",
+      "PackagePath": "staticwebassets/img/facescan1.png"
+    },
+    {
+      "Id": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/img/facescan2.png",
+      "PackagePath": "staticwebassets/img/facescan2.png"
+    },
+    {
+      "Id": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/img/ico/doctor.png",
+      "PackagePath": "staticwebassets/img/ico/doctor.png"
+    },
+    {
+      "Id": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/img/noimage.png",
+      "PackagePath": "staticwebassets/img/noimage.png"
     },
     {
       "Id": "/Users/salar/RiderProjects/Elira/Elira.App/Elira.App/wwwroot/index.html",
